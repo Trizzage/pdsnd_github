@@ -48,7 +48,7 @@ def get_filters():
     if z in day_list:
         print("Great, let's look at {}!".format(z))
     else:
-        print("No data available for that day. Try again.")
+        print("No data available for that day. Did you input it correctly?")
         z = input().lower()
 
     city = x
