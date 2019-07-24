@@ -12,3 +12,6 @@ bikeshare_project.py
 
 ### Credits
 the course from udacity, and my patient friends
+
+###Concerns
+I'm getting so far behind the master branch, but they won't let me merge yet!!
