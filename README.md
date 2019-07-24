@@ -15,3 +15,4 @@ the course from udacity, and my patient friends
 
 ###Concerns
 I'm getting so far behind the master branch, but they won't let me merge yet!!
+Also, it's late but i'd like to finish this in one sitting. Oh well!
