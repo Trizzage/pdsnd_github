@@ -196,7 +196,7 @@ def user_stats(df):
         print('No gender in this dataframe')
 
     # Display earliest, most recent, and most common year of birth
-    # excepts for data frames with no birthday 
+    # excepts for data frames with no birthday
     try:
         oldest = df['Birth Year'].min()
         print('Earliest Bday:', oldest)
@@ -219,15 +219,15 @@ def user_stats(df):
     print('-'*40)
 
 def trip_stats(df):
-    """displays 5 rows at a time of selected city dataframe"""
+    """displays 10 rows at a time of selected city dataframe"""
 
     x = input('\nWould you like to see individual trip data?\nPlease enter yes or no\n').lower()
 
     if x in ('yes'):
         i = 0
         while True:
-            print(df.iloc[i:i+5])
-            i += 5
+            print(df.iloc[i:i+10])
+            i += 10
             more_data = input('Would you like to see more data? Please enter yes or no ').lower()
             if more_data not in ('yes'):
                 print('Cool. I guess we\'re done!')
